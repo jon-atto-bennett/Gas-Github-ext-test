@@ -11,3 +11,7 @@ function functionOne() {
   Browser.msgBox('Hello World');
 }
 
+function functionTwo () {
+  var name = Browser.inputBox('What is your name?');
+  Browser.msgBox('Hello ' + name);
+}
