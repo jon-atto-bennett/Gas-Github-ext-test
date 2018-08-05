@@ -12,6 +12,6 @@ function functionOne() {
 }
 
 function functionTwo () {
-  var name = Browser.inputBox('What is your name?');
-  Browser.msgBox('Hello ' + name);
+  var name = Browser.inputBox('What\'s your name?');
+  Browser.msgBox('Hello there ' + name);
 }
