@@ -6,3 +6,8 @@ function onOpen() {
   ];
   spreadsheet.addMenu('Functions', menuItems);
 }
+
+function functionOne() {
+  Browser.msgBox('Hello World');
+}
+
