@@ -8,10 +8,14 @@ function onOpen() {
 }
 
 function functionOne() {
-  Browser.msgBox('Hello World');
+ var greeting = 'Hello there ';
+  Logger.log(greeting);
+ var name = functionTwo()
+ Browser.msgBox(greeting + name)
 }
 
 function functionTwo () {
   var name = Browser.inputBox('What\'s your name?');
-  Browser.msgBox('Hello there ' + name);
+  Logger.log(name);
+  return name;
 }
